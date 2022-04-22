@@ -79,3 +79,8 @@ body{
 				margin-bottom: 20px;
 		}
 	}
+	@media screen and (max-width:450px){
+		.NavBar{
+			word-spacing: 17px;
+		}
+	}
