@@ -59,7 +59,8 @@ body{
 	    padding-top: 30px;
 	    padding-bottom: 60px;
 	    padding-right: 15px;
-	    border: solid black;
+	    border-radius: 8px;
+	    border: 1px solid #CCD1D1;
 	}
 	footer{
 		background-color: #17202A;
@@ -79,12 +80,13 @@ body{
 				margin-bottom: 20px;
 		}
 	}
-	@media screen and (max-width:450px){
+	@media screen and (max-width:410px){
 		.flex-container{
 			flex-direction: column;
 		}
 		.box1,.box2,.box3{
 			width:82%;
+			margin-bottom:20px;
 		}
 	}
 	@media screen and (max-width:450px){
