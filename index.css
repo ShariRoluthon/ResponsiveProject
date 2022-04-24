@@ -70,13 +70,21 @@ body{
 	    height: 7em;
 	    text-align: center;
 	}
-	@media screen and (max-width:800px){
+	@media screen and (max-width:800px) and (min-width:410px){
 		.flex-container{
 			flex-direction: column;
 		}
 		.box1,.box2,.box3{
 				width: 87%;
 				margin-bottom: 20px;
+		}
+	}
+	@media screen and (max-width:450px){
+		.flex-container{
+			flex-direction: column;
+		}
+		.box1,.box2,.box3{
+			width:82%;
 		}
 	}
 	@media screen and (max-width:450px){
